@@ -133,6 +133,36 @@ body{
           }
         }
       }
+
+      .kontaktos {
+        label {
+  display: block;
+  padding: 0.5em;
+  text-align: center;
+  border-bottom: 1px solid #CCC;
+  color: #666;
+}
+        input {
+          display: none;
+          visibility: hidden;
+        }
+        #expand {
+          height: 0px;
+          overflow: hidden;
+          transition: height 0.5s;
+          background: url(http://placekitten.com/g/600/300);
+          color: #FFF;
+        }
+        section {
+          padding: 0 20px;
+        }
+        #toggle:checked ~ #expand {
+          height: 250px;
+        }
+        #toggle:checked ~ label::before {
+          content: "-";
+        }
+      }
       &.norreport{
         text-align: center;
         h5{
