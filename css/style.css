@@ -429,8 +429,11 @@ article.michelle-indhold {
     font-style: italic;
     margin-top: 0.2em; }
   article.michelle-indhold #nacl {
-    margin-top: 1.3em;
-    margin-bottom: 0; }
+    margin-top: 1.5em;
+    margin-bottom: 0;
+    font-size: 1.8em;
+    font-family: 'Playfair display', serif;
+    font-weight: 400; }
 
 #middle {
   width: 100%;
@@ -658,7 +661,7 @@ img.gaffel {
       -webkit-box-align: baseline;
           -ms-flex-align: baseline;
               align-items: baseline;
-      margin-top: 6em; }
+      margin-top: 4em; }
       body main.nicolai div.ydelsesikoner figure {
         max-width: 30%;
         margin: 0 auto 4em auto;
