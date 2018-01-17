@@ -58,6 +58,7 @@ body>main>div.velkommentekst{
   h4{
     color: $accentColor;
     font-size: 5vw;
+    font-weight: 400;
     margin-top: 0;
     margin-bottom: 0.6em;
   }
@@ -83,6 +84,7 @@ body{
       }
       p {
         font-size: 1.8em;
+        font-weight: 600;
         color: $textColor;
         background-color: rgba(0, 0, 0, 0.5);
         position: absolute;
@@ -127,6 +129,7 @@ body{
             margin-top: 0;
             margin-bottom: 0;
             font-family: 'Playfair display', serif;
+            font-weight: 400;
           }
           figcaption{
             color: $textColor;
@@ -170,6 +173,7 @@ body{
           font-size: 1.5em;
           margin-bottom: 0.5em;
           font-family: 'Playfair display', serif;
+          font-weight: 400;
         }
         p{
           color: $textColor;
@@ -194,6 +198,7 @@ body{
           font-size: 2em;
           margin-bottom: 0;
           font-family: 'Playfair display', serif;
+          font-weight: 400;
         }
         div.reviews{
           div.review{
@@ -249,7 +254,7 @@ body {
   footer{
 
     padding-top: 3vh;
-    background-color: #292929;
+  /*  background-color: #292929;*/
 
     div{
 
@@ -340,12 +345,14 @@ body {
             margin-top: 0.5em;
             margin-bottom: 0.5em;
             font-family: 'Playfair display', serif;
+            font-weight: 400;
           }
 
           h3 {
             font-size: 1.1em;
             font-style: italic;
             margin: 0;
+            font-weight: 400;
           }
 
           p{
@@ -597,6 +604,7 @@ margin-top: 0.3em;
 .omos {
     font-size: 2.2em;
     font-family: 'playfair display', serif;
+    font-weight: 400;
     }
 
     .centertext{
@@ -676,6 +684,7 @@ body main.whitepower .gallery {
 .galleryitem figcaption {
   color: black;
   font-family: 'open sans', sans-serif;
+  font-weight: 400;
   padding: .3em 0;
   text-align: center;
   padding-top: 1em;
@@ -1007,6 +1016,7 @@ body{
             color: white;
             font-family: 'Open Sans', sans-serif;
             font-size: 1.1em;
+            font-weight: 400;
             &.current{
               color: $accentColor;
             }
@@ -1047,8 +1057,8 @@ body{
         padding-top: 1em;
         display: flex;
         justify-content: space-around;
-        border-left: 1px solid white;
-        border-right: 1px solid white;
+        border-left: 1px solid $accentColor;
+        border-right: 1px solid $accentColor;
         padding-bottom: 0.1em;
         height: 3em;
         margin-top: 0.5em;
